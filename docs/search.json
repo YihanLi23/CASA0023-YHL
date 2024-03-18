@@ -2,43 +2,57 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Preface",
+    "title": "Learning diary",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\na = 1 + 1\na\n\n[1] 2"
+    "text": "Introduction\nHello! My name is Yihan Li and I'm from Chengdu, a city in Southwest China renowned for its pandas and hotpot. During my undergraduate studies in Urban Management at the University of Electronic Science and Technology of China, I developed a keen interest in courses like Data Mining, Principles and Applications of Artificial Intelligence, and GIS. This interest sparked my passion for applying these practical skills to solve real-world problems, even leading me to view smart cities as a promising direction for urban development. Fortuitously, I’m currently pursuing an MSc in Urban Spatial Science at CASA, which I was dreamed of .\nAlthough I had some exposure to related courses previously, my knowledge was not in-depth. This master’s program represented an opportunity for me to enhance my skills in geospatial analysis and coding. This week marks potentially my last to take courses as a student, cause in the latter half of this year, I will embark on a job search. I’m deeply grateful for the invaluable experiences and skills I’ve gained here. I aspire to apply the knowledge acquired to the development of my hometown.\nThis website serves as a learning diary for my module, Remotely Sensing Cities and Environments, where I document my thoughts and learning journey. I have learned fundamentals about remote sensing, and also had a deeper understanding about some related applications and practicals. I hope that you enjoy it!"
   },
   {
-    "objectID": "Introduction.html",
-    "href": "Introduction.html",
-    "title": "1  Introduction",
+    "objectID": "Week1.html",
+    "href": "Week1.html",
+    "title": "1  week1",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "2"
   },
   {
-    "objectID": "Week 1.html",
-    "href": "Week 1.html",
-    "title": "2  week1",
-    "section": "",
-    "text": "3"
-  },
-  {
-    "objectID": "Week 2.html",
-    "href": "Week 2.html",
-    "title": "3  Week 2",
-    "section": "",
-    "text": "remotes::install_github(\"yihui/xaringan\")\n\nSkipping install of 'xaringan' from a github remote, the SHA1 (07b03a71) has not changed since last install.\n  Use `force = TRUE` to force installation\n\nlibrary(xaringanExtra)\n\nWarning: package 'xaringanExtra' was built under R version 4.3.2"
+    "objectID": "Week1.html#hello-world",
+    "href": "Week1.html#hello-world",
+    "title": "1  week1",
+    "section": "1.1 hello world",
+    "text": "1.1 hello world"
   },
   {
     "objectID": "Summary.html",
     "href": "Summary.html",
-    "title": "4  Summary",
+    "title": "2  Summary",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+    "text": "In summary, this book has no content whatsoever.\nHello\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "References.html",
-    "href": "References.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "objectID": "Week1.html#summary",
+    "href": "Week1.html#summary",
+    "title": "1  Week1 An Introduction to Remote Sensing",
+    "section": "1.1 Summary",
+    "text": "1.1 Summary\n\n1.1.1 Mind Map\nThis is a hand-drawn mind map for Lecture 1, which I find exceptionally beneficial for summarizing topics. This week’s lecture introduced the fundamental aspects of remote sensing and its applications.\n\n\n\n\n\n\n\n\n\n\nMind map for Lecture 1\n\n\n\n1.1.2 EMR interactions with the Earth’s atmosphere\nElectromagnetic radiation (EMR) interacting with the Earth’s atmosphere undergoes three main processes: refraction, scattering, and absorption.\n\n\n\n\n\n\n\n\n\n\nFigure: Interaction of EMR in the Atmosphere (Pokhrel, 2017)\n\nRefraction occurs as EMR transitions from the vacuum of outer space (with virtually zero density) into the denser atmosphere, causing the radiation to bend and slow due to the differing refractive indices of space and the atmosphere.\nScattering, the redirection of photon paths, occurs when photons interact with atmospheric components. Rayleigh scattering is due to interactions with particles much smaller than the wavelength of the radiation (e.g., N2, O2, CO2 gases), resulting in the blue sky. Mie scattering occurs with particles about the same size as the radiation wavelength (e.g., smoke, dust), and larger particles cause additional scattering types.\nAbsorption happens when atmospheric gases (primarily H2O, CO2, and O3) absorb photons, converting them into molecular vibrations. These are later re-emitted at longer wavelengths, often outside the optical remote sensing spectrum but relevant for thermal remote sensing. Absorption efficiency varies with the radiation’s wavelength, aligning with the absorbing gas’s resonant frequency, influenced by its molecular structure.\n\n\n1.1.3 EMR interactions with the Earth’s surface\nOnce EMR penetrates the atmosphere without being absorbed or scattered away, it interacts with the Earth’s surface. At this point, each photon either gets absorbed by the surface or reflected back towards space. The likelihood of reflection over absorption is determined by the surface’s reflectance, which varies with both the surface material and the radiation’s wavelength. Each type of surface material displays a unique spectral signature, defining the proportion of radiation it reflects across different wavelengths.\nSpectral signatures also facilitate geological surveying by identifying minerals with distinct reflectance patterns, indicating various sub-surface conditions. Finally, EMR reflected from the Earth’s surface must navigate back through the atmosphere, encountering refraction, scattering, and absorption once more before detection by space-based sensors. This complexity underlines the advantage of airborne sensors, which can measure reflected EMR without it having to traverse the atmosphere a second time, offering clearer data for analysis.\n\n\n\n\n\n\n\n\n\n\nFigure: Interaction of EMR with Earth’s surface.(Pokhrel, 2017)"
+  },
+  {
+    "objectID": "Week1.html#applications",
+    "href": "Week1.html#applications",
+    "title": "1  Week1 An Introduction to Remote Sensing",
+    "section": "1.2 Applications",
+    "text": "1.2 Applications"
+  },
+  {
+    "objectID": "Week1.html#reflections",
+    "href": "Week1.html#reflections",
+    "title": "1  Week1 An Introduction to Remote Sensing",
+    "section": "1.3 Reflections",
+    "text": "1.3 Reflections"
+  },
+  {
+    "objectID": "Week1.html#references",
+    "href": "Week1.html#references",
+    "title": "1  Week1 An Introduction to Remote Sensing",
+    "section": "1.4 References",
+    "text": "1.4 References"
   }
 ]

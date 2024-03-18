@@ -2,6 +2,8 @@
 
 In summary, this book has no content whatsoever.
 
+Hello
+
 ```{r}
 1 + 1
 ```

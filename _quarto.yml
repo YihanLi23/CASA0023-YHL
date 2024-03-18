@@ -1,5 +1,5 @@
 project:
-  type: website
+  type: book
   output-dir: docs
 
 book:
@@ -8,9 +8,7 @@ book:
   date: "2024/1/24"
   chapters:
     - index.qmd
-    - Introduction.qmd
-    - Week 1.qmd
-    - Week 2.qmd
+    - Week1.qmd
     - Summary.qmd
     - References.qmd
 

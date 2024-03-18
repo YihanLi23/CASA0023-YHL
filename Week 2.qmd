@@ -1,8 +1,8 @@
 ---
 title: "Week 2"
 ---
+
 ```{r}
 remotes::install_github("yihui/xaringan")
 library(xaringanExtra)
 ```
-
