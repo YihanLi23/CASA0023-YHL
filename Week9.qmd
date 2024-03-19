@@ -1,0 +1,19 @@
+---
+title: "Week9 SAR in GEE"
+---
+## Summary
+
+### Mind Map
+
+This is a hand-drawn mind map for Lecture 9. This week's lecture introduced the fundamental aspects of SAR and its applications.
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('images/week9pic/mindmap9.png') 
+```
+<div align="center" style="font-size: smaller; color: gray;">
+<em>Mind map for Lecture 9</em>
+</div>
+
+### SAR
+SAR = active sensor, see through clouds, records energy reflected back
+InSAR = used for DEMs, converting phase different to relative height
+DInSAR = changes between two images in time. Looking at movement of land (uplift or sinking) with topography removed (using a DEM)

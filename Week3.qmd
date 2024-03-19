@@ -1,0 +1,6 @@
+---
+title: "Week 3"
+---
+
+## Reflections
+The concept of integrating data from multiple sensors, each with different spatial, spectral, or temporal resolutions, is particularly fascinating to me. The realization that achieving this integration requires advanced algorithms for automation and data processing didn’t intimidate me; rather, it sparked a surge of curiosity and determination. It’s clear that traditional data processing methods might struggle with the complexity and volume of data from these varied sensors, posing a real challenge.

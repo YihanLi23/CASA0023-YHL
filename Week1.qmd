@@ -41,7 +41,21 @@ knitr::include_graphics('images/week1pic/earthsurface.png')
 </div>
 
 ## Applications
+Remote sensing plays a pivotal role in urban sustainability, especially in the geospatial assessment of renewable energy technologies such as wind, solar, wave, biomass, and geothermal energy. For instance, Gooding et al. utilized LiDAR digital surface models to estimate the physical and socio-economic potential of rooftop photovoltaic (PV) generation, while Sun et al. developed a regional model and its economic feasibility for solar PV potential using digital elevation models.
+
+In terms of exploring the potential of geothermal resources, Van Der Meer et al. published a comprehensive review on the potential of remote sensing technologies. Ahamed et al. reviewed the application of remote sensing in assessing the biophysical characteristics of energy crops for managing biomass at specific sites. Furthermore, Rusu and Onea evaluated wind and wave energy resources along the Caspian Sea coast, and Kaiser and Ahmed derived the spatial distribution of hot springs, lineages, and geothermal zones for renewable energy technology applications based on data from multiple satellites.
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('images/week1pic/application.png') 
+```
+<div align="center" style="font-size: smaller; color: gray;">
+<em>Figure: Key urban sustainability applications of remote sensing</em>
+</div>
+<div align="center" style="font-size: smaller; color: gray;">
+<em>Source: Kadhim,et al.(2016)</em>
+</div>
 
 ## Reflections
+Reflecting on this week’s lessons, I'm struck by its vast potential,considering that I have never specially learned about remote sensing. The dive into how electromagnetic waves interact with the Earth's surface and atmosphere opened my eyes to the complexities of remote sensing. Exploring the four resolutions of remote sensing data—spectral, spatial, temporal, and radiometric—highlighted the critical role of constraints, whether environmental or sensor-related, in shaping our data choices. This understanding challenges me to think critically about the data I use and its suitability for specific applications. The lesson reinforced the importance of considering these interactions and resolutions in my future work, inspiring me to explore innovative ways to overcome these constraints for more effective data utilization in environmental studies.
+
 
 ## References

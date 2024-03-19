@@ -39,14 +39,14 @@
     "href": "Week1.html#applications",
     "title": "1  Week1 An Introduction to Remote Sensing",
     "section": "1.2 Applications",
-    "text": "1.2 Applications"
+    "text": "1.2 Applications\nRemote sensing plays a pivotal role in urban sustainability, especially in the geospatial assessment of renewable energy technologies such as wind, solar, wave, biomass, and geothermal energy. For instance, Gooding et al. utilized LiDAR digital surface models to estimate the physical and socio-economic potential of rooftop photovoltaic (PV) generation, while Sun et al. developed a regional model and its economic feasibility for solar PV potential using digital elevation models.\nIn terms of exploring the potential of geothermal resources, Van Der Meer et al. published a comprehensive review on the potential of remote sensing technologies. Ahamed et al. reviewed the application of remote sensing in assessing the biophysical characteristics of energy crops for managing biomass at specific sites. Furthermore, Rusu and Onea evaluated wind and wave energy resources along the Caspian Sea coast, and Kaiser and Ahmed derived the spatial distribution of hot springs, lineages, and geothermal zones for renewable energy technology applications based on data from multiple satellites.\n\n\n\n\n\n\n\n\n\n\nFigure: Key urban sustainability applications of remote sensing\n\n\nSource: Kadhim,et al.(2016)"
   },
   {
     "objectID": "Week1.html#reflections",
     "href": "Week1.html#reflections",
     "title": "1  Week1 An Introduction to Remote Sensing",
     "section": "1.3 Reflections",
-    "text": "1.3 Reflections"
+    "text": "1.3 Reflections\nReflecting on this week’s lessons, I’m struck by its vast potential,considering that I have never specially learned about remote sensing. The dive into how electromagnetic waves interact with the Earth’s surface and atmosphere opened my eyes to the complexities of remote sensing. Exploring the four resolutions of remote sensing data—spectral, spatial, temporal, and radiometric—highlighted the critical role of constraints, whether environmental or sensor-related, in shaping our data choices. This understanding challenges me to think critically about the data I use and its suitability for specific applications. The lesson reinforced the importance of considering these interactions and resolutions in my future work, inspiring me to explore innovative ways to overcome these constraints for more effective data utilization in environmental studies."
   },
   {
     "objectID": "Week1.html#references",
@@ -54,5 +54,12 @@
     "title": "1  Week1 An Introduction to Remote Sensing",
     "section": "1.4 References",
     "text": "1.4 References"
+  },
+  {
+    "objectID": "Week2.html",
+    "href": "Week2.html",
+    "title": "2  Week 2",
+    "section": "",
+    "text": "remotes::install_github(\"yihui/xaringan\")\n\nSkipping install of 'xaringan' from a github remote, the SHA1 (cdd8a487) has not changed since last install.\n  Use `force = TRUE` to force installation\n\nlibrary(xaringanExtra)\n\nWarning: package 'xaringanExtra' was built under R version 4.3.2"
   }
 ]
