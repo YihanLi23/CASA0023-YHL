@@ -57,5 +57,4 @@ knitr::include_graphics('images/week1pic/application.png')
 ## Reflections
 Reflecting on this week’s lessons, I'm struck by its vast potential,considering that I have never specially learned about remote sensing. The dive into how electromagnetic waves interact with the Earth's surface and atmosphere opened my eyes to the complexities of remote sensing. Exploring the four resolutions of remote sensing data—spectral, spatial, temporal, and radiometric—highlighted the critical role of constraints, whether environmental or sensor-related, in shaping our data choices. This understanding challenges me to think critically about the data I use and its suitability for specific applications. The lesson reinforced the importance of considering these interactions and resolutions in my future work, inspiring me to explore innovative ways to overcome these constraints for more effective data utilization in environmental studies.
 
-
 ## References
