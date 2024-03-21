@@ -7,27 +7,6 @@
     "text": "Introduction\nHello! My name is Yihan Li and I’m from Chengdu, a city in Southwest China renowned for its pandas and hotpot. During my undergraduate studies in Urban Management at the University of Electronic Science and Technology of China, I developed a keen interest in courses like Data Mining, Principles and Applications of Artificial Intelligence, and GIS. This interest sparked my passion for applying these practical skills to solve real-world problems, even leading me to view smart cities as a promising direction for urban development. Fortuitously, I’m currently pursuing an MSc in Urban Spatial Science at CASA, which I was dreamed of .\nAlthough I had some exposure to related courses previously, my knowledge was not in-depth. This master’s program represented an opportunity for me to enhance my skills in geospatial analysis and coding. This week marks potentially my last to take courses as a student, cause in the latter half of this year, I will embark on a job search. I’m deeply grateful for the invaluable experiences and skills I’ve gained here. I aspire to apply the knowledge acquired to the development of my hometown.\nThis website serves as a learning diary for my module, Remotely Sensing Cities and Environments, where I document my thoughts and learning journey. I have learned fundamentals about remote sensing, and also had a deeper understanding about some related applications and practicals. I hope that you enjoy it!"
   },
   {
-    "objectID": "Week1.html",
-    "href": "Week1.html",
-    "title": "1  week1",
-    "section": "",
-    "text": "2"
-  },
-  {
-    "objectID": "Week1.html#hello-world",
-    "href": "Week1.html#hello-world",
-    "title": "1  week1",
-    "section": "1.1 hello world",
-    "text": "1.1 hello world"
-  },
-  {
-    "objectID": "Summary.html",
-    "href": "Summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\nHello\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "Week1.html#summary",
     "href": "Week1.html#summary",
     "title": "1  Week1 An Introduction to Remote Sensing",
@@ -58,8 +37,127 @@
   {
     "objectID": "Week2.html",
     "href": "Week2.html",
-    "title": "2  Week 2",
+    "title": "2  Week2 An introduction to Sentinel-2",
     "section": "",
-    "text": "remotes::install_github(\"yihui/xaringan\")\n\nSkipping install of 'xaringan' from a github remote, the SHA1 (cdd8a487) has not changed since last install.\n  Use `force = TRUE` to force installation\n\nlibrary(xaringanExtra)\n\nWarning: package 'xaringanExtra' was built under R version 4.3.2"
+    "text": "Here is a short presentation introducing the Sentinel-2 mission。"
+  },
+  {
+    "objectID": "Week3.html#summary",
+    "href": "Week3.html#summary",
+    "title": "3  Week3 Corrections",
+    "section": "3.1 Summary",
+    "text": "3.1 Summary\n\n3.1.1 Mind Map\nThe summary of this week’s content is outlined below in the mind map.\n\n\n\n\n\n\n\n\n\n\nMind map for Lecture 3\n\nAnd I also want to add more detailed information about the enhancement techniques for remote sensing, cause I was quite confused when first exposed to this knowledge.\n\n\n3.1.2 NDVI\nNormalized Difference Vegetation Index (NDVI) is a standardized index that allows quantifying vegetation by measuring the difference between near-infrared and red light. NDVI values range from -1 to 1, with higher values indicating greater levels of vegetation health and vigor. This index is extensively used in agriculture for crop monitoring, environmental conservation efforts, and assessing vegetation health on a global scale.\n\n\n3.1.3 Texture\nTexture analysis involves the examination of the physical surface properties and patterns within an image. By analyzing the spatial distribution of intensity or color variations, texture analysis can identify different land cover types, geological formations, or urban structures. This technique enhances the interpretation of imagery by providing insights into the surface structure and composition that are not readily apparent in raw spectral data.\n\n\n3.1.4 PCA\nPrincipal Component Analysis (PCA) is a statistical procedure that transforms a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components. In the context of remote sensing, PCA is used to reduce the dimensionality of multispectral or hyperspectral data while retaining most of the variation present in the original dataset. This reduction helps in highlighting the most significant features in the imagery, facilitating better classification, and reducing computational complexity."
+  },
+  {
+    "objectID": "Week3.html#applications",
+    "href": "Week3.html#applications",
+    "title": "3  Week3 Corrections",
+    "section": "3.2 Applications",
+    "text": "3.2 Applications\nIn the study conducted by Wu, Q., Jin, Y., & Fan, H. (2016), the authors study the performance of seven topographic correction methods across complex terrains using multi-source DEMs and Landsat-8 OLI data. It brings to light the crucial interplay between the choice of Digital Elevation Models (DEMs) and the efficacy of various topographic correction approaches, particularly emphasizing the superiority of the SCS+C correction method in various contexts. The findings intriguingly suggest that freely available, open-access DEMs can often outperform local topographic maps in topographic correction applications. This revelation not only marks a shift towards utilizing global DEM resources but also highlights the potential for enhancing environmental monitoring capabilities, especially in underdeveloped regions lacking access to high-quality local DEMs."
+  },
+  {
+    "objectID": "Week3.html#reflections",
+    "href": "Week3.html#reflections",
+    "title": "3  Week3 Corrections",
+    "section": "3.3 Reflections",
+    "text": "3.3 Reflections\nThis week’s lecture covered many methodologies and Professional vocabulary. It was a steep learning curve. This process of re-organizing my own mind-map, albeit time-consuming, has enriched my understanding of correcting data before analysis. Raw remote sensing data, while rich in information, often contain distortions caused by the atmosphere, sensor biases, or topographical effects. Without appropriate corrections, these distortions can lead to inaccuracies in interpreting the data, which could have significant implications for research findings and real-world applications."
+  },
+  {
+    "objectID": "Week3.html#references",
+    "href": "Week3.html#references",
+    "title": "3  Week3 Corrections",
+    "section": "3.4 References",
+    "text": "3.4 References\nWu, Q., Jin, Y., & Fan, H. (2016). Evaluating and comparing performances of topographic correction methods based on multi-source DEMs and Landsat-8 OLI data. International Journal of Remote Sensing, 37(19), 4712-4730."
+  },
+  {
+    "objectID": "Week6.html#summary",
+    "href": "Week6.html#summary",
+    "title": "5  Week6 Google Earth Engine",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary\n\n5.1.1 Mind Map\nThis is this week’s mind map. This week introduced us Google Earth Engine.\n\n\n\n\n\n\n\n\n\n\nMind map for Lecture 6\n\n\n\n5.1.2 Practical"
+  },
+  {
+    "objectID": "Week9.html#summary",
+    "href": "Week9.html#summary",
+    "title": "8  Week9 SAR in GEE",
+    "section": "8.1 Summary",
+    "text": "8.1 Summary\n\n8.1.1 Mind Map\nThis is a hand-drawn mind map for Lecture 9. This week’s lecture introduced the fundamental aspects of SAR and its applications.\n\n\n\n\n\n\n\n\n\n\nMind map for Lecture 9\n\n\n\n8.1.2 SAR\nSAR = active sensor, see through clouds, records energy reflected back InSAR = used for DEMs, converting phase different to relative height DInSAR = changes between two images in time. Looking at movement of land (uplift or sinking) with topography removed (using a DEM)"
+  },
+  {
+    "objectID": "Week6.html#applications",
+    "href": "Week6.html#applications",
+    "title": "5  Week6 Google Earth Engine",
+    "section": "5.2 Applications",
+    "text": "5.2 Applications\nIn a study conducted by Lalit Kumar and Onisimo Mutanga in 2018, a comprehensive analysis of 300 research papers published in journals from January 2010 to June 2017 was carried out to understand the applications of Google Earth Engine (GEE) across various disciplines.\nThe findings revealed that the majority of global studies and publications targeted land cover and vegetation. Forest and vegetation studies topped the list, constituting 17% of the total, followed by land use and land cover research at 10%. Ecosystem and sustainability, wetland and hydrology, and data manipulation each accounted for 8% of the studies. Agriculture came in next at 7%, mapping and change detection at 5%, and both remote sensing applications and modelling and geoscience research were at 4%. Cloud computing, soil, disease, climate science, and urban studies each made up 3% of the research, while natural hazard and disaster studies were at 2%. The “others” category, comprising 11% of the applications, included diverse areas such as economics, air pollution, virtual environments, air temperature, and archaeology, indicating a wide but less explored variety of applications beyond the dominant focus on natural resources mapping and management.\n\n\n\n\n\n\n\n\n\n\nA broad categorization of application disciplines of GEE across the 300 papers surveyed. Source:Kumar, L., & Mutanga, O. (2018)\n\nThis analysis underscores a significant emphasis on vegetation and forest monitoring, as well as land cover/use change mapping within the GEE research community. It also highlights the relative scarcity of studies focusing on disaster monitoring, disease, and soil, despite potential overlaps between vegetation/agricultural diseases and the broader categories of vegetation and crop disease research."
+  },
+  {
+    "objectID": "Week6.html#references",
+    "href": "Week6.html#references",
+    "title": "5  Week6 Google Earth Engine",
+    "section": "5.4 References",
+    "text": "5.4 References\nKumar, L., & Mutanga, O. (2018). Google Earth Engine applications since inception: Usage, trends, and potential. Remote sensing, 10(10), 1509."
+  },
+  {
+    "objectID": "Week6.html#reflections",
+    "href": "Week6.html#reflections",
+    "title": "5  Week6 Google Earth Engine",
+    "section": "5.3 Reflections",
+    "text": "5.3 Reflections\nGoogle Earth Engine stands out as a remarkably powerful tool for data analysis, showcasing the strides made in technology and data analytics. Its capacity to process and analyze massive datasets swiftly contrasts sharply with the longer processing times in software like SNAP and R for considerably smaller data volumes. This efficiency is particularly valuable in environmental studies and related fields, where timely data analysis is crucial. It opens up a new avenue for learning and applying a language that is versatile and widely used beyond traditional web development. However, it’s worth noting that utilizing GEE effectively does require a foundation in coding, which might limit its accessibility to a broader audience."
+  },
+  {
+    "objectID": "Week7.html#summary",
+    "href": "Week7.html#summary",
+    "title": "6  Week7 Classification",
+    "section": "6.1 Summary",
+    "text": "6.1 Summary\n\n6.1.1 Mind Map\nThis is the mind map for Lecture 7. This week’s lecture introduced how classied data is used and how to classify.\n\n\n\n\n\n\n\n\n\n\nMind map for Lecture 7"
+  },
+  {
+    "objectID": "Week7.html#applications",
+    "href": "Week7.html#applications",
+    "title": "6  Week7 Classification",
+    "section": "6.2 Applications",
+    "text": "6.2 Applications\nSVM and ML classifiers have been extensively utilized for their robustness in various contexts. ML, often paired with supervised classification methods, has been applied in urban land cover and development mapping, achieving up to 84.4% overall accuracy in some studies (Thapa and Murayama, 2009). On the other hand, SVM, a set of related learning algorithms, has demonstrated overall accuracies surpassing 86.6% (TAATI et al., 2014), showcasing its superiority in producing high-quality results.\nAccuracy assessment is a complex yet crucial step in land cover classification and mapping, involving the analysis of a map or classification’s correctness (Foody, 2002). It includes measuring map quality, evaluating classification algorithms, and identifying errors. Our research suggests SVM as a preferable choice for precise land cover classification, especially in urban and built-up areas, due to its higher user and producer accuracy compared to ML. This recommendation is based on its effectiveness in distinguishing urban/built-up land cover, attributed to the more distinct features identified by SVM.\nIn the study by Rimal,Rijal and Kunwar(2020), they focused on comparing the effectiveness of two widely used classification algorithms: Support Vector Machine (SVM) and Maximum Likelihood (ML), for land cover classification in the Kathmandu Valley of Nepal from 1988 to 2016. The research found that the User’s and Producer’s Accuracy of SVM classifier were both relatively higher than the ML classifier. And SVM classifier identified all the classes more accurately than the ML classifier.\n\n\n\n\n\n\n\n\n\n\nOverall classification accuracy of SVM and ML in different classification years Source:Rimal,Rijal and Kunwar(2020)"
+  },
+  {
+    "objectID": "Week7.html#references",
+    "href": "Week7.html#references",
+    "title": "6  Week7 Classification",
+    "section": "6.4 References",
+    "text": "6.4 References\nRimal, B., Rijal, S., & Kunwar, R. (2020). Comparing support vector machines and maximum likelihood classifiers for mapping of urbanization. Journal of the Indian Society of Remote Sensing, 48(1), 71-79.\nThapa, R. B., & Murayama, Y. (2009). Examining spatiotemporal urbanization patterns in Kathmandu Valley, Nepal: Remote sensing and spatial metrics approaches. Remote Sensing, 1(3), 534-556.\nTAATI, A., SARMADIAN, F., MOUSAVI, A., POUR, C. T. H., & SHAHIR, A. H. E. (2015). Land use classification using support vector machine and maximum likelihood algorithms by Landsat 5 TM images. Walailak Journal of Science and Technology (WJST), 12(8), 681-687.\nFoody, G. M. (2002). Status of land cover classification accuracy assessment. Remote sensing of environment, 80(1), 185-201."
+  },
+  {
+    "objectID": "Week7.html#reflections",
+    "href": "Week7.html#reflections",
+    "title": "6  Week7 Classification",
+    "section": "6.3 Reflections",
+    "text": "6.3 Reflections\nThis week’s exploration into the image classification has been a blend of absorbing theory and practical learning. I’m intrigued by the concept of Gini impurity used in Classification and Regression Trees (CART), a straightforward yet powerful measure for decision-making in tree algorithms. Another highlight was grappling with the challenge of overfitting—a reminder that more complex models aren’t always better, especially when they might not generalize well to new data.\nActually I am also studying these concepts in the module of CASA0006. I consider it’s very useful and interesting to see how these methods are used in remote sensing.\nAs a graduate student, these insights are more than academic concepts; they’re tools that can be wielded to uncover patterns in environmental data that are otherwise invisible. This knowledge empowers us to make informed decisions, whether it’s in managing natural resources or planning urban expansions."
+  },
+  {
+    "objectID": "Week8.html#summary",
+    "href": "Week8.html#summary",
+    "title": "7  Week8 Classification2",
+    "section": "7.1 Summary",
+    "text": "7.1 Summary\n\n7.1.1 Mind Map\nThis is the mind map for Lecture 8. This week’s lecture introduced advanced techniques in remote sensing for land cover classification.\n\n\n\n\n\n\n\n\n\n\nMind map for Lecture 8\n\n\n\n7.1.2 Tools for managing spatial autocorrelation\nI would like to add more information about spatial autocorrelation, cause When training and testing classification models in remote sensing, it is crucial to consider spatial autocorrelation.\nSpatial autocorrelation refers to the principle that spatial data points close to each other are more likely to have similar values than those that are further apart. Ignoring spatial autocorrelation can lead to overly optimistic accuracy assessments and model overfitting.\nObject-Based Image Analysis (OBIA) can help address spatial autocorrelation because it groups nearby pixels into objects or segments based on their spectral and spatial properties. This method recognizes that adjacent pixels are likely to be more related and thus analyzes the image at the object level rather than at the individual pixel level. By doing so, it inherently accounts for the spatial context and can reduce the bias in accuracy assessment caused by spatial autocorrelation.\nSpatial cross-validation is specifically designed to handle spatial autocorrelation when assessing model performance. Unlike traditional cross-validation, which randomly splits the dataset into training and testing sets, spatial cross-validation ensures that spatially autocorrelated observations are not split across training and testing sets. It partitions the data based on spatial location, typically ensuring that the folds are spatially disjoint. This means that each fold acts as a truly independent sample of the data, providing a more reliable estimate of the model’s performance on unseen data.\nIn summary, both OBIA and spatial cross-validation are useful approaches for managing spatial autocorrelation, leading to more robust and reliable classification models in remote sensing."
+  },
+  {
+    "objectID": "Week8.html#applications",
+    "href": "Week8.html#applications",
+    "title": "7  Week8 Classification2",
+    "section": "7.2 Applications",
+    "text": "7.2 Applications"
+  },
+  {
+    "objectID": "Week8.html#reflections",
+    "href": "Week8.html#reflections",
+    "title": "7  Week8 Classification2",
+    "section": "7.3 Reflections",
+    "text": "7.3 Reflections"
+  },
+  {
+    "objectID": "Week8.html#references",
+    "href": "Week8.html#references",
+    "title": "7  Week8 Classification2",
+    "section": "7.4 References",
+    "text": "7.4 References"
   }
 ]

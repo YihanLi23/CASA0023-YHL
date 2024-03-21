@@ -1,8 +1,10 @@
 ---
-title: "Week 2"
+title: "Week2 An introduction to Sentinel-2"
 ---
 
-```{r}
-remotes::install_github("yihui/xaringan")
-library(xaringanExtra)
+Here is a short presentation introducing the Sentinel-2 mission。
+
+```{r xaringan_embed, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://yihanli23.github.io/0023week2pre/", ratio = "4:3")
+
 ```

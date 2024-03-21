@@ -1,3 +1,30 @@
 ---
 title: "Week8 Classification2"
 ---
+## Summary
+### Mind Map
+
+This is the mind map for Lecture 8. This week's lecture introduced advanced techniques in remote sensing for land cover classification.
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('images/week8pic/mindmap8.png') 
+```
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Mind map for Lecture 8</em>
+:::
+
+### Tools for managing spatial autocorrelation
+I would like to add more information about spatial autocorrelation, cause When training and testing classification models in remote sensing, it is crucial to consider spatial autocorrelation. 
+
+Spatial autocorrelation refers to the principle that spatial data points close to each other are more likely to have similar values than those that are further apart. Ignoring spatial autocorrelation can lead to overly optimistic accuracy assessments and model overfitting.
+
+Object-Based Image Analysis (OBIA) can help address spatial autocorrelation because it groups nearby pixels into objects or segments based on their spectral and spatial properties. This method recognizes that adjacent pixels are likely to be more related and thus analyzes the image at the object level rather than at the individual pixel level. By doing so, it inherently accounts for the spatial context and can reduce the bias in accuracy assessment caused by spatial autocorrelation.
+
+Spatial cross-validation is specifically designed to handle spatial autocorrelation when assessing model performance. Unlike traditional cross-validation, which randomly splits the dataset into training and testing sets, spatial cross-validation ensures that spatially autocorrelated observations are not split across training and testing sets. It partitions the data based on spatial location, typically ensuring that the folds are spatially disjoint. This means that each fold acts as a truly independent sample of the data, providing a more reliable estimate of the model's performance on unseen data.
+
+In summary, both OBIA and spatial cross-validation are useful approaches for managing spatial autocorrelation, leading to more robust and reliable classification models in remote sensing.
+
+## Applications
+
+## Reflections
+
+## References
