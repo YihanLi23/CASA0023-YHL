@@ -5,7 +5,7 @@ title: "Week8 Classification2"
 ### Mind Map
 
 This is the mind map for Lecture 8. This week's lecture introduced advanced techniques in remote sensing for land cover classification.
-```{r echo=FALSE, out.width = "60%", fig.align='center', cache=FALSE}
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
 knitr::include_graphics('images/week8pic/mindmap8.png') 
 ```
 ::: {align="center" style="font-size: smaller; color: gray;"}
