@@ -1,14 +1,17 @@
 ---
 title: "Week6 Google Earth Engine"
 ---
+
 ## Summary
+
 ### Mind Map
 
 This is this week's mind map. This week introduced us Google Earth Engine.
 
-```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
 knitr::include_graphics('images/week6pic/mindmap6.png') 
 ```
+
 ::: {align="center" style="font-size: smaller; color: gray;"}
 <em>Mind map for Lecture 6</em>
 :::
@@ -16,21 +19,25 @@ knitr::include_graphics('images/week6pic/mindmap6.png')
 ### Practical
 
 ## Applications
+
 In a study conducted by Lalit Kumar and Onisimo Mutanga in 2018, a comprehensive analysis of 300 research papers published in journals from January 2010 to June 2017 was carried out to understand the applications of Google Earth Engine (GEE) across various disciplines.
 
 The findings revealed that the majority of global studies and publications targeted land cover and vegetation. Forest and vegetation studies topped the list, constituting 17% of the total, followed by land use and land cover research at 10%. Ecosystem and sustainability, wetland and hydrology, and data manipulation each accounted for 8% of the studies. Agriculture came in next at 7%, mapping and change detection at 5%, and both remote sensing applications and modelling and geoscience research were at 4%. Cloud computing, soil, disease, climate science, and urban studies each made up 3% of the research, while natural hazard and disaster studies were at 2%. The "others" category, comprising 11% of the applications, included diverse areas such as economics, air pollution, virtual environments, air temperature, and archaeology, indicating a wide but less explored variety of applications beyond the dominant focus on natural resources mapping and management.
+
 ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
 knitr::include_graphics('images/week6pic/application.jpg') 
 ```
+
 ::: {align="center" style="font-size: smaller; color: gray;"}
-<em>A broad categorization of application disciplines of GEE across the 300 papers surveyed.</em>
-<em>Source:Kumar, L., & Mutanga, O. (2018)</em>
+<em>A broad categorization of application disciplines of GEE across the 300 papers surveyed.</em> <em>Source:Kumar, L., & Mutanga, O. (2018)</em>
 :::
 
 This analysis underscores a significant emphasis on vegetation and forest monitoring, as well as land cover/use change mapping within the GEE research community. It also highlights the relative scarcity of studies focusing on disaster monitoring, disease, and soil, despite potential overlaps between vegetation/agricultural diseases and the broader categories of vegetation and crop disease research.
 
 ## Reflections
-Google Earth Engine stands out as a remarkably powerful tool for data analysis, showcasing the strides made in technology and data analytics. Its capacity to process and analyze massive datasets swiftly contrasts sharply with the longer processing times in software like SNAP and R for considerably smaller data volumes. This efficiency is particularly valuable in environmental studies and related fields, where timely data analysis is crucial. It opens up a new avenue for learning and applying a language that is versatile and widely used beyond traditional web development. However, it's worth noting that utilizing GEE effectively does require a foundation in coding, which might limit its accessibility to a broader audience. 
+
+Google Earth Engine stands out as a remarkably powerful tool for data analysis, showcasing the strides made in technology and data analytics. Its capacity to process and analyze massive datasets swiftly contrasts sharply with the longer processing times in software like SNAP and R for considerably smaller data volumes. This efficiency is particularly valuable in environmental studies and related fields, where timely data analysis is crucial. It opens up a new avenue for learning and applying a language that is versatile and widely used beyond traditional web development. However, it's worth noting that utilizing GEE effectively does require a foundation in coding, which might limit its accessibility to a broader audience.
 
 ## References
+
 Kumar, L., & Mutanga, O. (2018). Google Earth Engine applications since inception: Usage, trends, and potential. Remote sensing, 10(10), 1509.

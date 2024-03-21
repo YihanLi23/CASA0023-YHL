@@ -3,13 +3,15 @@ title: "Week1 An Introduction to Remote Sensing"
 ---
 
 ## Summary
+
 ### Mind Map
 
 This is a hand-drawn mind map for Lecture 1, which I find exceptionally beneficial for summarizing topics. This week's lecture introduced the fundamental aspects of remote sensing and its applications.
 
-```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
 knitr::include_graphics('images/week1pic/mindmap1.png') 
 ```
+
 ::: {align="center" style="font-size: smaller; color: gray;"}
 <em>Mind map for Lecture 1</em>
 :::
@@ -21,6 +23,7 @@ Electromagnetic radiation (EMR) interacting with the Earth's atmosphere undergoe
 ```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
 knitr::include_graphics('images/week1pic/atmosphere.png') 
 ```
+
 ::: {align="center" style="font-size: smaller; color: gray;"}
 <em>Figure: Interaction of EMR in the Atmosphere (Pokhrel, 2017)</em>
 :::
@@ -40,6 +43,7 @@ Spectral signatures also facilitate geological surveying by identifying minerals
 ```{r echo=FALSE, out.width = "60%", fig.align='center', cache=FALSE}
 knitr::include_graphics('images/week1pic/earthsurface.png') 
 ```
+
 ::: {align="center" style="font-size: smaller; color: gray;"}
 <em>Figure: Interaction of EMR with Earth's surface.(Pokhrel, 2017)</em>
 :::
@@ -53,9 +57,11 @@ In terms of exploring the potential of geothermal resources, Van Der Meer et al.
 ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
 knitr::include_graphics('images/week1pic/application.png') 
 ```
+
 ::: {align="center" style="font-size: smaller; color: gray;"}
 <em>Figure: Key urban sustainability applications of remote sensing</em>
 :::
+
 ::: {align="center" style="font-size: smaller; color: gray;"}
 <em>Source: Kadhim,et al.(2016)</em>
 :::

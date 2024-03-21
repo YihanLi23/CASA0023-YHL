@@ -144,20 +144,20 @@
     "href": "Week8.html#applications",
     "title": "7  Week8 Classification2",
     "section": "7.2 Applications",
-    "text": "7.2 Applications"
+    "text": "7.2 Applications\nIn their respective studies on the spatial distribution of COVID-19, both Kang et al. (2020) and Mollalo et al. (2020) shed light on the significance of spatial autocorrelation in epidemiological research.\nKang et al. applied Moran’s I statistic to determine the spatial clustering of COVID-19 cases in China, adjusting for skewness in the data by employing log transformation. This method revealed significant spatial dependencies, with different models capturing the extent of disease spread based on geographic proximity, population density, and healthcare resources. Notably, their study suggested that areas geographically closer to Wuhan showed early signs of COVID-19 clusters before travel restrictions were implemented.\n\n\n\n\n\n\n\n\n\n\nPlots of Moran’s I statistic and p-values\n\n\nSource:Kang, Choi, Kim, & Choi(2020)\n\nConversely, Mollalo et al. delved into the spatial variability of COVID-19 incidence across the United States using a geodatabase of various factors. Their method employed spatial lag and spatial error models, as well as geographically weighted regression (GWR) and multiscale GWR (MGWR), to account for spatial non-stationarity. MGWR, in particular, demonstrated higher explanatory power for disease variability, indicating a strong spatial relationship influenced by factors such as income inequality and healthcare provision.\n\n\n\n\n\n\n\n\n\n\nGeographic distribution of local R2 of GWR and MGWR models for COVID-19 incidence rate associated with income inequality, median household income, % of nurse practitioners, and % of black females across the continental United States.\n\n\nSource:Mollalo, Vahedi, & Rivera (2020)\n\nBoth studies underscore the importance of considering spatial autocorrelation to understand the spread of COVID-19. The Chinese study primarily utilized proximity and direct relationships in defining spatial adjacency, whereas the U.S. study integrated a broader spectrum of socioeconomic and environmental variables, showcasing the disease’s complexity and the multifaceted nature of its spread. These approaches highlight the necessity of incorporating spatial dynamics into epidemiological models to accurately capture the influence of various factors on disease transmission."
   },
   {
     "objectID": "Week8.html#reflections",
     "href": "Week8.html#reflections",
     "title": "7  Week8 Classification2",
     "section": "7.3 Reflections",
-    "text": "7.3 Reflections"
+    "text": "7.3 Reflections\nIn comparison to last week, this week’s lecture has provided a more profound insight into how to effectively model and interpret environmental data.\nIt has introduced us the concept of accuracy assessment, which has profoundly enhanced my understanding of it, especially following up on last week’s comparative study of SVM and ML classifiers by doing the accuracy assessment. I’m really excited. It allowed me to revisit last week’s literature with a deeper perspective, understanding not just the ‘what’ but the ‘why’ behind the performance metrics.\nFurthermore, while I was introduced to the concept of spatial autocorrelation in my CASA0005 course, this module has deepened my comprehension of its significance in the realm of geographical data. Recognizing the interdependence of spatial data points is crucial for the credibility of classification processes in remote sensing. Overlooking the spatial linkages could skew the results, which underlines the fact that our data is not just a collection of isolated points but a mirror of the interconnected world we inhabit. It serves as a powerful reminder that, in working with this data, we must always account for the intricate web of relationships that define the environment around us."
   },
   {
     "objectID": "Week8.html#references",
     "href": "Week8.html#references",
     "title": "7  Week8 Classification2",
     "section": "7.4 References",
-    "text": "7.4 References"
+    "text": "7.4 References\nKang, D., Choi, H., Kim, J. H., & Choi, J. (2020). Spatial epidemic dynamics of the COVID-19 outbreak in China. International journal of infectious diseases, 94, 96-102.\nMollalo, A., Vahedi, B., & Rivera, K. M. (2020). GIS-based spatial modeling of COVID-19 incidence rate in the continental United States. Science of the total environment, 728, 138884."
   }
 ]
