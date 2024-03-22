@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -230,7 +249,22 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="applications" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">3.2</span> Applications</h2>
-<p>In the study conducted by Wu, Q., Jin, Y., &amp; Fan, H. (2016), the authors study the performance of seven topographic correction methods across complex terrains using multi-source DEMs and Landsat-8 OLI data. It brings to light the crucial interplay between the choice of Digital Elevation Models (DEMs) and the efficacy of various topographic correction approaches, particularly emphasizing the superiority of the SCS+C correction method in various contexts. The findings intriguingly suggest that freely available, open-access DEMs can often outperform local topographic maps in topographic correction applications. This revelation not only marks a shift towards utilizing global DEM resources but also highlights the potential for enhancing environmental monitoring capabilities, especially in underdeveloped regions lacking access to high-quality local DEMs.</p>
+<p>In this study<span class="citation" data-cites="wu2016evaluating">(<a href="#ref-wu2016evaluating" role="doc-biblioref">Wu, Jin, and Fan 2016</a>)</span>, the authors study the performance of seven topographic correction methods across complex terrains using multi-source DEMs and Landsat-8 OLI data. It brings to light the crucial interplay between the choice of Digital Elevation Models (DEMs) and the efficacy of various topographic correction approaches, particularly emphasizing the superiority of the SCS+C correction method in various contexts. The findings intriguingly suggest that freely available, open-access DEMs can often outperform local topographic maps in topographic correction applications. This revelation not only marks a shift towards utilizing global DEM resources but also highlights the potential for enhancing environmental monitoring capabilities, especially in underdeveloped regions lacking access to high-quality local DEMs.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/week3pic/application.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div data-align="center" style="font-size: smaller; color: gray;">
+<p><em>Figure: Location of the study area (a) and the false colour composition of the Landsat-8 OLI image of the study area (b), overlaid on hillshade map based on the local DEM. The red dash-line rectangle outlines the location of Landsat image subset.</em></p>
+</div>
+<div data-align="center" style="font-size: smaller; color: gray;">
+<p><em>Source: <span class="citation" data-cites="wu2016evaluating">(<a href="#ref-wu2016evaluating" role="doc-biblioref">Wu, Jin, and Fan 2016</a>)</span></em></p>
+</div>
 </section>
 <section id="reflections" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">3.3</span> Reflections</h2>
@@ -238,9 +272,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="references" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="references"><span class="header-section-number">3.4</span> References</h2>
-<p>Wu, Q., Jin, Y., &amp; Fan, H. (2016). Evaluating and comparing performances of topographic correction methods based on multi-source DEMs and Landsat-8 OLI data. International Journal of Remote Sensing, 37(19), 4712-4730.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-wu2016evaluating" class="csl-entry" role="listitem">
+Wu, Qiong, Yuan Jin, and Hui Fan. 2016. <span>“Evaluating and Comparing Performances of Topographic Correction Methods Based on Multi-Source DEMs and Landsat-8 OLI Data.”</span> <em>International Journal of Remote Sensing</em> 37 (19): 4712–30.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

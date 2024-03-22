@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -223,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="applications" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.2</span> Applications</h2>
-<p>In their respective studies on the spatial distribution of COVID-19, both Kang et al.&nbsp;(2020) and Mollalo et al.&nbsp;(2020) shed light on the significance of spatial autocorrelation in epidemiological research.</p>
+<p>In the respective studies on the spatial distribution of COVID-19, both <span class="citation" data-cites="kang2020spatial">(<a href="#ref-kang2020spatial" role="doc-biblioref">Kang et al. 2020</a>)</span> and <span class="citation" data-cites="mollalo2020gis">(<a href="#ref-mollalo2020gis" role="doc-biblioref">Mollalo, Vahedi, and Rivera 2020</a>)</span> shed light on the significance of spatial autocorrelation in epidemiological research.</p>
 <p>Kang et al.&nbsp;applied Moran’s I statistic to determine the spatial clustering of COVID-19 cases in China, adjusting for skewness in the data by employing log transformation. This method revealed significant spatial dependencies, with different models capturing the extent of disease spread based on geographic proximity, population density, and healthcare resources. Notably, their study suggested that areas geographically closer to Wuhan showed early signs of COVID-19 clusters before travel restrictions were implemented.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -238,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Figure: Plots of Moran’s I statistic and p-values</em></p>
 </div>
 <div data-align="center" style="font-size: smaller; color: gray;">
-<p><em>Source: Kang, Choi, Kim, &amp; Choi(2020)</em></p>
+<p><em>Source: <span class="citation" data-cites="kang2020spatial">(<a href="#ref-kang2020spatial" role="doc-biblioref">Kang et al. 2020</a>)</span></em></p>
 </div>
 <p>Conversely, Mollalo et al.&nbsp;delved into the spatial variability of COVID-19 incidence across the United States using a geodatabase of various factors. Their method employed spatial lag and spatial error models, as well as geographically weighted regression (GWR) and multiscale GWR (MGWR), to account for spatial non-stationarity. MGWR, in particular, demonstrated higher explanatory power for disease variability, indicating a strong spatial relationship influenced by factors such as income inequality and healthcare provision.</p>
 <div class="cell" data-layout-align="center">
@@ -254,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Figure: Geographic distribution of local R2 of GWR and MGWR models for COVID-19 incidence rate associated with income inequality, median household income, % of nurse practitioners, and % of black females across the continental United States.</em></p>
 </div>
 <div data-align="center" style="font-size: smaller; color: gray;">
-<p><em>Source: Mollalo, Vahedi, &amp; Rivera (2020)</em></p>
+<p><em>Source: <span class="citation" data-cites="mollalo2020gis">(<a href="#ref-mollalo2020gis" role="doc-biblioref">Mollalo, Vahedi, and Rivera 2020</a>)</span></em></p>
 </div>
 <p>Both studies underscore the importance of considering spatial autocorrelation to understand the spread of COVID-19. The Chinese study primarily utilized proximity and direct relationships in defining spatial adjacency, whereas the U.S. study integrated a broader spectrum of socioeconomic and environmental variables, showcasing the disease’s complexity and the multifaceted nature of its spread. These approaches highlight the necessity of incorporating spatial dynamics into epidemiological models to accurately capture the influence of various factors on disease transmission.</p>
 </section>
@@ -266,10 +285,16 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="references" class="level2" data-number="7.4">
 <h2 data-number="7.4" class="anchored" data-anchor-id="references"><span class="header-section-number">7.4</span> References</h2>
-<p>Kang, D., Choi, H., Kim, J. H., &amp; Choi, J. (2020). Spatial epidemic dynamics of the COVID-19 outbreak in China. International journal of infectious diseases, 94, 96-102.</p>
-<p>Mollalo, A., Vahedi, B., &amp; Rivera, K. M. (2020). GIS-based spatial modeling of COVID-19 incidence rate in the continental United States. Science of the total environment, 728, 138884.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-kang2020spatial" class="csl-entry" role="listitem">
+Kang, Dayun, Hyunho Choi, Jong-Hun Kim, and Jungsoon Choi. 2020. <span>“Spatial Epidemic Dynamics of the COVID-19 Outbreak in China.”</span> <em>International Journal of Infectious Diseases</em> 94: 96–102.
+</div>
+<div id="ref-mollalo2020gis" class="csl-entry" role="listitem">
+Mollalo, Abolfazl, Behzad Vahedi, and Kiara M Rivera. 2020. <span>“GIS-Based Spatial Modeling of COVID-19 Incidence Rate in the Continental United States.”</span> <em>Science of the Total Environment</em> 728: 138884.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

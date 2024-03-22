@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -229,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Figure: Interaction of EMR in the Atmosphere</em></p>
 </div>
 <div data-align="center" style="font-size: smaller; color: gray;">
-<p><em>Source: Pokhrel, 2017</em></p>
+<p><em>Source: <span class="citation" data-cites="Pokhrel2017Unit2IO">(<a href="#ref-Pokhrel2017Unit2IO" role="doc-biblioref">Pokhrel 2017</a>)</span></em></p>
 </div>
 <p>Refraction occurs as EMR transitions from the vacuum of outer space (with virtually zero density) into the denser atmosphere, causing the radiation to bend and slow due to the differing refractive indices of space and the atmosphere.</p>
 <p>Scattering, the redirection of photon paths, occurs when photons interact with atmospheric components. Rayleigh scattering is due to interactions with particles much smaller than the wavelength of the radiation (e.g., N2, O2, CO2 gases), resulting in the blue sky. Mie scattering occurs with particles about the same size as the radiation wavelength (e.g., smoke, dust), and larger particles cause additional scattering types.</p>
@@ -252,14 +271,14 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Figure: Interaction of EMR with Earth’s surface.</em></p>
 </div>
 <div data-align="center" style="font-size: smaller; color: gray;">
-<p><em>Source: Pokhrel, 2017</em></p>
+<p><em>Source: <span class="citation" data-cites="Pokhrel2017Unit2IO">(<a href="#ref-Pokhrel2017Unit2IO" role="doc-biblioref">Pokhrel 2017</a>)</span></em></p>
 </div>
 </section>
 </section>
 <section id="applications" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">1.2</span> Applications</h2>
 <p>Remote sensing plays a pivotal role in urban sustainability, especially in the geospatial assessment of renewable energy technologies such as wind, solar, wave, biomass, and geothermal energy. For instance, Gooding et al.&nbsp;utilized LiDAR digital surface models to estimate the physical and socio-economic potential of rooftop photovoltaic (PV) generation, while Sun et al.&nbsp;developed a regional model and its economic feasibility for solar PV potential using digital elevation models.</p>
-<p>In terms of exploring the potential of geothermal resources, Van Der Meer et al.&nbsp;published a comprehensive review on the potential of remote sensing technologies. Ahamed et al.&nbsp;reviewed the application of remote sensing in assessing the biophysical characteristics of energy crops for managing biomass at specific sites. Furthermore, Rusu and Onea evaluated wind and wave energy resources along the Caspian Sea coast, and Kaiser and Ahmed derived the spatial distribution of hot springs, lineages, and geothermal zones for renewable energy technology applications based on data from multiple satellites.</p>
+<p>In terms of exploring the potential of geothermal resources, Van Der Meer et al.&nbsp;published a comprehensive review on the potential of remote sensing technologies<span class="citation" data-cites="van2014geologic">(<a href="#ref-van2014geologic" role="doc-biblioref">Meer et al. 2014</a>)</span>. Ahamed et al.&nbsp;reviewed the application of remote sensing in assessing the biophysical characteristics of energy crops for managing biomass at specific sites. Rusu and Onea evaluated wind and wave energy resources along the Caspian Sea coast<span class="citation" data-cites="rusu2013evaluation">(<a href="#ref-rusu2013evaluation" role="doc-biblioref">Rusu and Onea 2013</a>)</span>.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -273,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Figure: Key urban sustainability applications of remote sensing</em></p>
 </div>
 <div data-align="center" style="font-size: smaller; color: gray;">
-<p><em>Source: Kadhim,et al.(2016)</em></p>
+<p><em>Source: <span class="citation" data-cites="kadhim2016advances">(<a href="#ref-kadhim2016advances" role="doc-biblioref">Kadhim, Mourshed, and Bray 2016</a>)</span></em></p>
 </div>
 </section>
 <section id="reflections" class="level2" data-number="1.3">
@@ -284,6 +303,20 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="1.4" class="anchored" data-anchor-id="references"><span class="header-section-number">1.4</span> References</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-kadhim2016advances" class="csl-entry" role="listitem">
+Kadhim, Nada, Monjur Mourshed, and Michaela Bray. 2016. <span>“Advances in Remote Sensing Applications for Urban Sustainability.”</span> <em>Euro-Mediterranean Journal for Environmental Integration</em> 1 (1): 7.
+</div>
+<div id="ref-van2014geologic" class="csl-entry" role="listitem">
+Meer, Freek van der, Christoph Hecker, Frank van Ruitenbeek, Harald van der Werff, Charlotte de Wijkerslooth, and Carolina Wechsler. 2014. <span>“Geologic Remote Sensing for Geothermal Exploration: A Review.”</span> <em>International Journal of Applied Earth Observation and Geoinformation</em> 33: 255–69.
+</div>
+<div id="ref-Pokhrel2017Unit2IO" class="csl-entry" role="listitem">
+Pokhrel, Samir. 2017. <span>“Unit-2 Interaction of EMR with Earth and Atmosphere.”</span> In. <a href="https://api.semanticscholar.org/CorpusID:202916529">https://api.semanticscholar.org/CorpusID:202916529</a>.
+</div>
+<div id="ref-rusu2013evaluation" class="csl-entry" role="listitem">
+Rusu, Eugen, and Florin Onea. 2013. <span>“Evaluation of the Wind and Wave Energy Along the Caspian Sea.”</span> <em>Energy</em> 50: 1–14.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

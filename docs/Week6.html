@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -218,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="applications" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">5.2</span> Applications</h2>
-<p>In a study conducted by Lalit Kumar and Onisimo Mutanga in 2018, a comprehensive analysis of 300 research papers published in journals from January 2010 to June 2017 was carried out to understand the applications of Google Earth Engine (GEE) across various disciplines.</p>
+<p>In a study conducted by Lalit Kumar and Onisimo Mutanga, a comprehensive analysis of 300 research papers published in journals from January 2010 to June 2017 was carried out to understand the applications of Google Earth Engine (GEE) across various disciplines<span class="citation" data-cites="kumar2018google">(<a href="#ref-kumar2018google" role="doc-biblioref">Kumar and Mutanga 2018</a>)</span>.</p>
 <p>The findings revealed that the majority of global studies and publications targeted land cover and vegetation. Forest and vegetation studies topped the list, constituting 17% of the total, followed by land use and land cover research at 10%. Ecosystem and sustainability, wetland and hydrology, and data manipulation each accounted for 8% of the studies. Agriculture came in next at 7%, mapping and change detection at 5%, and both remote sensing applications and modelling and geoscience research were at 4%. Cloud computing, soil, disease, climate science, and urban studies each made up 3% of the research, while natural hazard and disaster studies were at 2%. The “others” category, comprising 11% of the applications, included diverse areas such as economics, air pollution, virtual environments, air temperature, and archaeology, indicating a wide but less explored variety of applications beyond the dominant focus on natural resources mapping and management.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -233,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Figure: A broad categorization of application disciplines of GEE across the 300 papers surveyed.</em></p>
 </div>
 <div data-align="center" style="font-size: smaller; color: gray;">
-<p><em>Source: Kumar &amp; Mutanga (2018)</em></p>
+<p><em>Source: <span class="citation" data-cites="kumar2018google">(<a href="#ref-kumar2018google" role="doc-biblioref">Kumar and Mutanga 2018</a>)</span></em></p>
 </div>
 <p>This analysis underscores a significant emphasis on vegetation and forest monitoring, as well as land cover/use change mapping within the GEE research community. It also highlights the relative scarcity of studies focusing on disaster monitoring, disease, and soil, despite potential overlaps between vegetation/agricultural diseases and the broader categories of vegetation and crop disease research.</p>
 </section>
@@ -243,9 +262,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="references" class="level2" data-number="5.4">
 <h2 data-number="5.4" class="anchored" data-anchor-id="references"><span class="header-section-number">5.4</span> References</h2>
-<p>Kumar, L., &amp; Mutanga, O. (2018). Google Earth Engine applications since inception: Usage, trends, and potential. Remote sensing, 10(10), 1509.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-kumar2018google" class="csl-entry" role="listitem">
+Kumar, Lalit, and Onisimo Mutanga. 2018. <span>“Google Earth Engine Applications Since Inception: Usage, Trends, and Potential.”</span> <em>Remote Sensing</em> 10 (10): 1509.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
