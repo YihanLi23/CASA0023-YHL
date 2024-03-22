@@ -4,9 +4,31 @@ title: "Week4 Policy"
 
 ## Summary
 
-For this project, I chose New York City as my focus area, particularly examining its resilience planning within the OneNYC 2050 initiative. This comprehensive strategy aims to address the multifaceted challenges posed by climate change, including urban flooding, heatwaves, and rising sea levels. As NYC navigates through these environmental hurdles, the necessity for sustainable urban growth and resilience becomes increasingly apparent. OneNYC 2050 not only sets ambitious goals for a sustainable city but also outlines actionable steps towards achieving them, focusing on enhancing ecosystem services, promoting biodiversity, and improving coastal flood resilience.
+For this week's practical, I chose New York City as my focus area, particularly examining its resilience planning within the OneNYC 2050 initiative.
 
-New York City's approach is reflective of broader issues faced by urban centers worldwide, especially those in vulnerable coastal regions. The policy's emphasis on integrating socio-ecological systems and biodiversity into urban planning mirrors global efforts to create resilient, sustainable cities in the face of climate change.
+A growing population, aging infrastructure, a changing climate, and an evolving economy posed challenges to the city's success and quality of life. New York City Municipality recognized that they will determine the city's own future by how the citizens as well as local authorities respond to and shape these changes with their own actions. Since the first PlaNYC in 2007, the City has made considerable progress on reaching its goals[@sisigreen].
+
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
+knitr::include_graphics('images/week4pic/1.png') 
+```
+
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Figure: Plans about PlaNYC</em>
+:::
+
+But OneNYC 2050,a more comprehensive strategy, aims to address the multifaceted challenges posed by climate change, including urban flooding, heatwaves, and rising sea levels. As NYC navigates through these environmental hurdles, the necessity for sustainable urban growth and resilience becomes increasingly apparent.
+
+OneNYC 2050 not only sets ambitious goals for a sustainable city but also outlines actionable steps towards achieving them, focusing on enhancing ecosystem services, promoting biodiversity, and improving coastal flood resilience.
+
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
+knitr::include_graphics('images/week4pic/2050.jpg') 
+```
+
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Figure: OneNYC 2050</em>
+:::
+
+New York City's approach is reflective of broader issues faced by urban centers worldwide, especially those in vulnerable coastal regions. The policy's emphasis on integrating socio-ecological systems and biodiversity into urban planning mirrors global efforts to create resilient, sustainable cities in the face of climate change[@caputo2016critical].
 
 ## Applications
 
@@ -23,11 +45,3 @@ This research has also highlighted the critical link between local actions and g
 Reflecting on the OneNYC 2050 strategy and its applications, it's clear that incorporating advanced technology and data analysis into urban planning is no longer optional but a necessity. As cities continue to grow and face unprecedented challenges, the lessons learned from New York's approach to resilience planning will undoubtedly serve as valuable blueprints for other urban areas globally.
 
 ## References
-
-Bunnell, T. (2021). Ordinary geographies of the future.
-
-Ghosh, S., Byahut, S., & Masilela, C. (2022). An overview of climate protection and resiliency planning in the New York megacity region. Smart Global Megacities: Collaborative Research: Tokyo, Mumbai, New York, Hong Kong-Shenzhen, Kolkata, 287-313.
-
-Mesa, N. (2021). Cities and climate resilience (NYC Office of Sustainability). In Collaborating for Climate Resilience (pp. 10-24). Routledge.
-
-Nestico, M. A. (2020). " New" York: A Story of People, Architecture, and Climate Change (Doctoral dissertation, Carleton University).

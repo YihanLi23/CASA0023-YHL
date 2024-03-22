@@ -16,7 +16,6 @@ knitr::include_graphics('images/week6pic/mindmap6.png')
 <em>Figure: Mind map for Lecture 6</em>
 :::
 
-### Practical
 
 ## Applications
 
