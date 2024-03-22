@@ -1,19 +1,64 @@
 ---
 title: "Week9 SAR in GEE"
 ---
+
 ## Summary
-
 ### Mind Map
-
-This is a hand-drawn mind map for Lecture 9. This week's lecture introduced the fundamental aspects of SAR and its applications.
-```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+This is the mind map for Lecture 9. This week's lecture introduced the fundamental aspects of SAR and its applications.
+```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
 knitr::include_graphics('images/week9pic/mindmap9.png') 
 ```
-<div align="center" style="font-size: smaller; color: gray;">
-<em>Mind map for Lecture 9</em>
-</div>
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Figure: Mind map for Lecture 9</em>
+:::
 
 ### SAR
-SAR = active sensor, see through clouds, records energy reflected back
-InSAR = used for DEMs, converting phase different to relative height
-DInSAR = changes between two images in time. Looking at movement of land (uplift or sinking) with topography removed (using a DEM)
+In order to get more familiar with SAR, I will cover the main related concepts.
+
+SAR (Synthetic Aperture Radar) operates as an active sensor system, which means it emits its own energy to illuminate targets and measures the energy that is reflected back. This capability allows SAR to penetrate through cloud cover, making it a powerful tool for Earth observation regardless of weather conditions or time of day.
+
+InSAR (Interferometric SAR) is an advanced application of SAR technology, which involves using two or more SAR images to create maps of surface deformation or digital elevation models (DEMs). It calculates the phase difference between the SAR images taken at different times to measure the relative height of the Earth's surface with high precision.
+
+DInSAR (Differential InSAR) takes this a step further by analyzing the phase difference between pairs of images acquired over the same area at different times to detect and measure the subtle changes in the Earth's surface, such as uplift or subsidence. By comparing these phase differences and removing the effects of overall topography using a DEM, DInSAR can reveal land movements caused by factors like earthquakes, volcanic activity, or groundwater extraction, with millimeter-level accuracy. This technique is particularly valuable for monitoring and studying geophysical phenomena, contributing to our understanding of natural hazards and the dynamics of the Earth's crust.
+
+## Applications
+The application of deep learning techniques to SAR imagery analysis covers areas such as object detection, classification, tracking, intelligent processing, and interferometric SAR technology(Zhang et al. ,2023).
+
+In the study written by Tan et al.,a feature-preserving heterogenous remote sensing image transformationthe model represents a significant stride in enhancing optical image details while reducing spectral distortion. This model's ability to enhance feature reconstruction and its efficiency in parameter economy, as validated by Sentinel-2 satellite imagery, marks a notable advancement in the field.
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('images/week9pic/application1.jpg') 
+```
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Figure: (a) Overview of the method: the SAR image affected by speckling is the input, and the Despeckling GAN generates a corresponding optical grayscale image as output. The optical grayscale image is then sent as input to the second generator network Colorization GAN, and the output is an optical color image. (b) Examples of generating optical grayscale images and optical color images through the Serial GANs.</em>
+:::
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Source:Tan,et al. (2021)</em>
+:::
+
+Zhang et al.'s work on a self-supervised despeckling algorithm, SSEUNet, brings innovation by generating noisy-noisy image pairs from real-world SAR images, which enables the training of deep convolutional neural networks on authentic SAR data. This approach, coupled with an enhanced U-Net, showcases substantial improvements in speckle noise reduction while preserving image features, setting new standards in state-of-the-art despeckling methods.
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+knitr::include_graphics('images/week9pic/application2.jpg') 
+```
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Figure: The despeckled visual results of a simulated SAR image</em>
+:::
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Source:Zhang,et al. (2021)</em>
+:::
+
+Both studies underscore the potential of deep learning to revolutionize SAR image processing, offering a paradigm shift from traditional methods to more sophisticated, feature-focused approaches. While Tan et al.'s study provides a new model for heterogenous transformation, Zhang et al. suggest practical improvements in despeckling, acknowledging that further advancements in network speed and data augmentation effects on SAR imagery are areas ripe for future exploration. Together, these works not only push the boundaries of SAR image analysis but also pave the way for comprehensive, efficient, and precise remote sensing applications.
+
+## Reflections
+This week, I get to know more about the complexity and charm of SAR data.
+
+I consider the concept of polarization in remote sensing is similar to that of polarized lenses used in our everyday life to some extent. In both cases, the polarization helps to filter and clarify the reflected signals we perceive. In remote sensing, polarization filters Earth's reflections in varied ways, offering us valuable clues about the surface. It's intriguing to consider how different materials reflect these waves; rough surfaces or vegetation, for example, have distinct interactions with different polarizations. This not only enhances the quality of the images but also improves our ability to distinguish and analyze various surface features for environmental monitoring and other applications.
+
+While SAR's utility in remote sensing is undeniable, particularly for its cloud-penetrating capabilities ensuring consistent data acquisition, it's not without its challenges. The preprocessing required for SAR data, including steps like orbit file application, radiometric calibration, and speckle filtering, can be quite involved. Despite these complexities, SAR's potential in remote sensing continues to grow, making it crucial to master its use for advancing geospatial analysis.
+
+## References
+Zhang, T., Zeng, T., & Zhang, X. (2023). Synthetic aperture radar (SAR) meets deep learning. Remote Sensing, 15(2), 303.
+
+Tan, D., Liu, Y., Li, G., Yao, L., Sun, S., & He, Y. (2021). Serial GANs: A feature-preserving heterogeneous remote sensing image transformation model. Remote Sensing, 13(19), 3968.
+
+Zhang, G., Li, Z., Li, X., & Liu, S. (2021). Self-supervised despeckling algorithm with an enhanced U-net for synthetic aperture radar images. Remote Sensing, 13(21), 4383.

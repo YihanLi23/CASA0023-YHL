@@ -1,3 +1,33 @@
 ---
-title: "Week4"
+title: "Week4 Policy"
 ---
+
+## Summary
+
+For this project, I chose New York City as my focus area, particularly examining its resilience planning within the OneNYC 2050 initiative. This comprehensive strategy aims to address the multifaceted challenges posed by climate change, including urban flooding, heatwaves, and rising sea levels. As NYC navigates through these environmental hurdles, the necessity for sustainable urban growth and resilience becomes increasingly apparent. OneNYC 2050 not only sets ambitious goals for a sustainable city but also outlines actionable steps towards achieving them, focusing on enhancing ecosystem services, promoting biodiversity, and improving coastal flood resilience.
+
+New York City's approach is reflective of broader issues faced by urban centers worldwide, especially those in vulnerable coastal regions. The policy's emphasis on integrating socio-ecological systems and biodiversity into urban planning mirrors global efforts to create resilient, sustainable cities in the face of climate change.
+
+## Applications
+
+Remotely sensed data is pivotal in supporting NYC's resilience planning goals. Satellite imagery and data, such as those provided by Landsat or Sentinel-2, can be instrumental in monitoring urban heat islands, assessing green infrastructure effectiveness, and tracking changes in coastal zones. These datasets offer critical insights into the city's evolving landscape, allowing for targeted interventions in areas most at risk of flooding or heat stress.
+
+For example, high-resolution imagery can identify areas where green roofs or urban parks might be most effective in mitigating heat, while elevation and radar data can help model flood risk areas, guiding the development of resilient infrastructure. By leveraging these remotely sensed datasets, NYC can enhance its urban planning processes, making informed decisions that align with its sustainability and resilience objectives.
+
+## Reflections
+
+Engaging with New York City's OneNYC 2050 initiative and the role of remotely sensed data in urban resilience planning has been enlightening. It has reinforced the complexity of addressing urban sustainability and resilience, showcasing the interconnected nature of climate change impacts, urban development, and environmental management. The use of remote sensing data in this context highlights a forward-thinking approach to urban planning, where data-driven strategies can lead to more effective and adaptive solutions.
+
+This research has also highlighted the critical link between local actions and global sustainability goals, such as the Sustainable Development Goals (SDGs), demonstrating how cities like New York can lead by example in tackling climate change. It underscores the importance of innovative tools like remote sensing in crafting policies that not only respond to current challenges but also anticipate future needs.
+
+Reflecting on the OneNYC 2050 strategy and its applications, it's clear that incorporating advanced technology and data analysis into urban planning is no longer optional but a necessity. As cities continue to grow and face unprecedented challenges, the lessons learned from New York's approach to resilience planning will undoubtedly serve as valuable blueprints for other urban areas globally.
+
+## References
+
+Bunnell, T. (2021). Ordinary geographies of the future.
+
+Ghosh, S., Byahut, S., & Masilela, C. (2022). An overview of climate protection and resiliency planning in the New York megacity region. Smart Global Megacities: Collaborative Research: Tokyo, Mumbai, New York, Hong Kong-Shenzhen, Kolkata, 287-313.
+
+Mesa, N. (2021). Cities and climate resilience (NYC Office of Sustainability). In Collaborating for Climate Resilience (pp. 10-24). Routledge.
+
+Nestico, M. A. (2020). " New" York: A Story of People, Architecture, and Climate Change (Doctoral dissertation, Carleton University).

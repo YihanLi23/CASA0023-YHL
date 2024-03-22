@@ -13,7 +13,7 @@ knitr::include_graphics('images/week1pic/mindmap1.png')
 ```
 
 ::: {align="center" style="font-size: smaller; color: gray;"}
-<em>Mind map for Lecture 1</em>
+<em>Figure: Mind map for Lecture 1</em>
 :::
 
 ### EMR interactions with the Earth's atmosphere
@@ -23,9 +23,11 @@ Electromagnetic radiation (EMR) interacting with the Earth's atmosphere undergoe
 ```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
 knitr::include_graphics('images/week1pic/atmosphere.png') 
 ```
-
 ::: {align="center" style="font-size: smaller; color: gray;"}
-<em>Figure: Interaction of EMR in the Atmosphere (Pokhrel, 2017)</em>
+<em>Figure: Interaction of EMR in the Atmosphere</em>
+:::
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Source: Pokhrel, 2017</em>
 :::
 
 Refraction occurs as EMR transitions from the vacuum of outer space (with virtually zero density) into the denser atmosphere, causing the radiation to bend and slow due to the differing refractive indices of space and the atmosphere.
@@ -45,7 +47,11 @@ knitr::include_graphics('images/week1pic/earthsurface.png')
 ```
 
 ::: {align="center" style="font-size: smaller; color: gray;"}
-<em>Figure: Interaction of EMR with Earth's surface.(Pokhrel, 2017)</em>
+<em>Figure: Interaction of EMR with Earth's surface.</em>
+:::
+
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Source: Pokhrel, 2017</em>
 :::
 
 ## Applications

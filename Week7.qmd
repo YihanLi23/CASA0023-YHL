@@ -13,7 +13,7 @@ knitr::include_graphics('images/week7pic/mindmap7.png')
 ```
 
 ::: {align="center" style="font-size: smaller; color: gray;"}
-<em>Mind map for Lecture 7</em>
+<em>Figure: Mind map for Lecture 7</em>
 :::
 
 ## Applications
@@ -29,7 +29,11 @@ knitr::include_graphics('images/week7pic/application1.jpg')
 ```
 
 ::: {align="center" style="font-size: smaller; color: gray;"}
-<em>Overall classification accuracy of SVM and ML in different classification years</em> <em>Source:Rimal,Rijal and Kunwar(2020)</em>
+<em>Figure: Overall classification accuracy of SVM and ML in different classification years</em>
+:::
+
+::: {align="center" style="font-size: smaller; color: gray;"}
+<em>Source: Rimal,Rijal and Kunwar(2020)</em>
 :::
 
 ## Reflections

@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week2 An introduction to Sentinel-2</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week2 Xaringan</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -125,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week4</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week4 Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -167,6 +167,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#mind-map" id="toc-mind-map" class="nav-link" data-scroll-target="#mind-map"><span class="header-section-number">8.1.1</span> Mind Map</a></li>
   <li><a href="#sar" id="toc-sar" class="nav-link" data-scroll-target="#sar"><span class="header-section-number">8.1.2</span> SAR</a></li>
   </ul></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">8.2</span> Applications</a></li>
+  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">8.3</span> Reflections</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">8.4</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -194,26 +197,78 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="8.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">8.1</span> Summary</h2>
 <section id="mind-map" class="level3" data-number="8.1.1">
 <h3 data-number="8.1.1" class="anchored" data-anchor-id="mind-map"><span class="header-section-number">8.1.1</span> Mind Map</h3>
-<p>This is a hand-drawn mind map for Lecture 9. This week’s lecture introduced the fundamental aspects of SAR and its applications.</p>
+<p>This is the mind map for Lecture 9. This week’s lecture introduced the fundamental aspects of SAR and its applications.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/week9pic/mindmap9.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p><img src="images/week9pic/mindmap9.png" class="img-fluid figure-img" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
 </div>
 <div data-align="center" style="font-size: smaller; color: gray;">
-<p><em>Mind map for Lecture 9</em></p>
+<p><em>Figure: Mind map for Lecture 9</em></p>
 </div>
 </section>
 <section id="sar" class="level3" data-number="8.1.2">
 <h3 data-number="8.1.2" class="anchored" data-anchor-id="sar"><span class="header-section-number">8.1.2</span> SAR</h3>
-<p>SAR = active sensor, see through clouds, records energy reflected back InSAR = used for DEMs, converting phase different to relative height DInSAR = changes between two images in time. Looking at movement of land (uplift or sinking) with topography removed (using a DEM)</p>
-
-
+<p>In order to get more familiar with SAR, I will cover the main related concepts.</p>
+<p>SAR (Synthetic Aperture Radar) operates as an active sensor system, which means it emits its own energy to illuminate targets and measures the energy that is reflected back. This capability allows SAR to penetrate through cloud cover, making it a powerful tool for Earth observation regardless of weather conditions or time of day.</p>
+<p>InSAR (Interferometric SAR) is an advanced application of SAR technology, which involves using two or more SAR images to create maps of surface deformation or digital elevation models (DEMs). It calculates the phase difference between the SAR images taken at different times to measure the relative height of the Earth’s surface with high precision.</p>
+<p>DInSAR (Differential InSAR) takes this a step further by analyzing the phase difference between pairs of images acquired over the same area at different times to detect and measure the subtle changes in the Earth’s surface, such as uplift or subsidence. By comparing these phase differences and removing the effects of overall topography using a DEM, DInSAR can reveal land movements caused by factors like earthquakes, volcanic activity, or groundwater extraction, with millimeter-level accuracy. This technique is particularly valuable for monitoring and studying geophysical phenomena, contributing to our understanding of natural hazards and the dynamics of the Earth’s crust.</p>
 </section>
+</section>
+<section id="applications" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">8.2</span> Applications</h2>
+<p>The application of deep learning techniques to SAR imagery analysis covers areas such as object detection, classification, tracking, intelligent processing, and interferometric SAR technology(Zhang et al.&nbsp;,2023).</p>
+<p>In the study written by Tan et al.,a feature-preserving heterogenous remote sensing image transformationthe model represents a significant stride in enhancing optical image details while reducing spectral distortion. This model’s ability to enhance feature reconstruction and its efficiency in parameter economy, as validated by Sentinel-2 satellite imagery, marks a notable advancement in the field.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/week9pic/application1.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div data-align="center" style="font-size: smaller; color: gray;">
+<p><em>Figure: (a) Overview of the method: the SAR image affected by speckling is the input, and the Despeckling GAN generates a corresponding optical grayscale image as output. The optical grayscale image is then sent as input to the second generator network Colorization GAN, and the output is an optical color image. (b) Examples of generating optical grayscale images and optical color images through the Serial GANs.</em></p>
+</div>
+<div data-align="center" style="font-size: smaller; color: gray;">
+<p><em>Source:Tan,et al.&nbsp;(2021)</em></p>
+</div>
+<p>Zhang et al.’s work on a self-supervised despeckling algorithm, SSEUNet, brings innovation by generating noisy-noisy image pairs from real-world SAR images, which enables the training of deep convolutional neural networks on authentic SAR data. This approach, coupled with an enhanced U-Net, showcases substantial improvements in speckle noise reduction while preserving image features, setting new standards in state-of-the-art despeckling methods.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/week9pic/application2.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div data-align="center" style="font-size: smaller; color: gray;">
+<p><em>Figure: The despeckled visual results of a simulated SAR image</em></p>
+</div>
+<div data-align="center" style="font-size: smaller; color: gray;">
+<p><em>Source:Zhang,et al.&nbsp;(2021)</em></p>
+</div>
+<p>Both studies underscore the potential of deep learning to revolutionize SAR image processing, offering a paradigm shift from traditional methods to more sophisticated, feature-focused approaches. While Tan et al.’s study provides a new model for heterogenous transformation, Zhang et al.&nbsp;suggest practical improvements in despeckling, acknowledging that further advancements in network speed and data augmentation effects on SAR imagery are areas ripe for future exploration. Together, these works not only push the boundaries of SAR image analysis but also pave the way for comprehensive, efficient, and precise remote sensing applications.</p>
+</section>
+<section id="reflections" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">8.3</span> Reflections</h2>
+<p>This week, I get to know more about the complexity and charm of SAR data.</p>
+<p>I consider the concept of polarization in remote sensing is similar to that of polarized lenses used in our everyday life to some extent. In both cases, the polarization helps to filter and clarify the reflected signals we perceive. In remote sensing, polarization filters Earth’s reflections in varied ways, offering us valuable clues about the surface. It’s intriguing to consider how different materials reflect these waves; rough surfaces or vegetation, for example, have distinct interactions with different polarizations. This not only enhances the quality of the images but also improves our ability to distinguish and analyze various surface features for environmental monitoring and other applications.</p>
+<p>While SAR’s utility in remote sensing is undeniable, particularly for its cloud-penetrating capabilities ensuring consistent data acquisition, it’s not without its challenges. The preprocessing required for SAR data, including steps like orbit file application, radiometric calibration, and speckle filtering, can be quite involved. Despite these complexities, SAR’s potential in remote sensing continues to grow, making it crucial to master its use for advancing geospatial analysis.</p>
+</section>
+<section id="references" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="references"><span class="header-section-number">8.4</span> References</h2>
+<p>Zhang, T., Zeng, T., &amp; Zhang, X. (2023). Synthetic aperture radar (SAR) meets deep learning. Remote Sensing, 15(2), 303.</p>
+<p>Tan, D., Liu, Y., Li, G., Yao, L., Sun, S., &amp; He, Y. (2021). Serial GANs: A feature-preserving heterogeneous remote sensing image transformation model. Remote Sensing, 13(19), 3968.</p>
+<p>Zhang, G., Li, Z., Li, X., &amp; Liu, S. (2021). Self-supervised despeckling algorithm with an enhanced U-net for synthetic aperture radar images. Remote Sensing, 13(21), 4383.</p>
+
+
 </section>
 
 </main> <!-- /main -->

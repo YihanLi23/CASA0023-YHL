@@ -1,5 +1,5 @@
 ---
-title: "Week2 An introduction to Sentinel-2"
+title: "Week2 Xaringan"
 ---
 
 Here is a short presentation introducing the Sentinel-2 mission。
