@@ -20,7 +20,7 @@ But OneNYC 2050,a more comprehensive strategy, aims to address the multifaceted 
 
 OneNYC 2050 not only sets ambitious goals for a sustainable city but also outlines actionable steps towards achieving them, focusing on enhancing ecosystem services, promoting biodiversity, and improving coastal flood resilience.
 
-```{r echo=FALSE, out.width = "80%", fig.align='center', cache=FALSE}
+```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
 knitr::include_graphics('images/week4pic/2050.jpg') 
 ```
 
